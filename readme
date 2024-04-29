@@ -1,0 +1,36 @@
+Simple Example DayZ Local Server Batch File For Use With Windows
+
+This is a simple .bat file that is required to start your local DayZ server when it is installed on your own Windows PC.
+
+Local DayZ Servers are useful for single-player offline gameplay, testing & exploring mods, and improving and practicing your coding skills.
+
+The file is provided in two formats: .bat & .txt , because sometimes your systems will not allow transfer of .bat files. If so, transfer the .txt version, then when it
+is in place, change it the name to "st-zb-ch.bat" by opening the file in a text editor and using the "save as" function. Make sure you include the quotation marks.
+
+You'll need to change the set serverLocation line to the location and path to where your local server is installed on your PC.
+
+It will be something like C:\Program Files (x86)\Steam\steamapps\common\DayZServer
+
+The start line in the mods section refers to "-mod=@CF;@ZomBerry Admin Tools" so either remove this reference if you don't want to use them, install those mods, or change to your
+requirements.
+
+You'll find "DayZ Server" in your Steam Library under "Tools". Install from there, but don't run it from Steam - you double click on this batch file to start the server.
+
+To stop your server, switch to the window with the black background and white text and press space, then close the window, or just close the window with the white background and black text,
+and the window  with the black background and white text.
+
+Further reading, referring to the editing of your local server config, with a little about the batch file: https://community.bistudio.com/wiki/DayZ:Server_Configuration
+
+Thanks, Rob.
+
+scalespeeder@gmail.com
+
+TERMS OF USE
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+April 2024.
